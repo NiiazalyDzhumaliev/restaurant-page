@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/NiiazalyDzhumaliev/restaurant-page#readme",
   "devDependencies": {
+    "css-loader": "^4.3.0",
+    "style-loader": "^1.3.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   }
