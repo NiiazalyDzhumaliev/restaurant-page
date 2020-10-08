@@ -1,11 +1,14 @@
 const content = document.getElementById("content");
 const loadHeader = () => {
-  const headerDiv = document.createElement("DIV");
-  content.appendChild(headerDiv);
-  headerDiv.setAttribute("class", "header-div");
-  const header = document.createElement("H2");
-  header.setAttribute("id", "header");
-  header.textContent = "Supara";
+  const headerContainer = document.createElement("DIV");
+  content.appendChild(headerContainer);
+  headerContainer.setAttribute("class", "header-container");
+  const headerDiv = document.createElement("div");
+  headerDiv.setAttribute("class", "header-div");  
+  headerContainer.appendChild(headerDiv);
+  const header = document.createElement('h2');
+  header.setAttribute('class', 'header')
+  header.textContent = 'Supara'
   headerDiv.appendChild(header);
 };
 
