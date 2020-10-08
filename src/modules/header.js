@@ -2,9 +2,12 @@ const content = document.getElementById("content");
 const loadHeader = () => {
   const headerContainer = document.createElement("DIV");
   content.appendChild(headerContainer);
-  headerContainer.setAttribute("class", "header-container d-flex justify-content-between mt-3");
+  headerContainer.setAttribute(
+    "class",
+    "header-container d-flex justify-content-between mt-3 align-items-center"
+  );
   const headerDiv = document.createElement("div");
-  headerDiv.setAttribute("class", "header-div");
+  headerDiv.setAttribute("class", "header-div mb-3");
   headerContainer.appendChild(headerDiv);
   const header = document.createElement("h2");
   header.setAttribute("class", "header ml-5");

@@ -1,3 +1,7 @@
+.header-container {
+  border-bottom: 1px solid grey;
+}
+
 .nav-list {
   list-style-type: none;
 }
