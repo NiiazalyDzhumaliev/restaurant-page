@@ -1,4 +1,5 @@
 const content = document.getElementById("content");
+const body = document.querySelector('body');
 const loadHeader = () => {
   const headerContainer = document.createElement("DIV");
   content.appendChild(headerContainer);
