@@ -1,0 +1,8 @@
+.nav-list {
+  list-style-type: none;
+}
+
+.list-item {
+  text-transform: capitalize;
+  cursor: pointer;
+}
