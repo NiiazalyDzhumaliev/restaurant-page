@@ -4,7 +4,13 @@ import * as Contact from "./modules/contact";
 
 const content = document.getElementById("content");
 
+const cleanContent = () => {
+  content.textContent = "";
+};
+
 Header.loadHeader();
 
-Contact.loadContact();
-
+Header.contactLi.addEventListener("click", () => {
+  cleanContent();
+  Contact.loadContact();
+});
