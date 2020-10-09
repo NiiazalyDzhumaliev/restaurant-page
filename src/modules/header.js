@@ -15,7 +15,7 @@ const loadHeader = () => {
   headerContainer.appendChild(headerDiv);
   const header = document.createElement("h2");
   header.setAttribute("class", "header ml-5");
-  header.textContent = "Supara";
+  header.textContent = "Complement";
   headerDiv.appendChild(header);
 
   const arr = [homeLi, aboutLi, contactLi];
@@ -30,4 +30,4 @@ const loadHeader = () => {
   }
 };
 
-export { contactLi, loadHeader };
+export { contactLi, homeLi, aboutLi, loadHeader };

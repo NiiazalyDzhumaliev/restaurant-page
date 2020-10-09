@@ -1,12 +1,12 @@
 body {
   background: url(./assets/background.jpg);
-  background-attachment: fixed;  
+  background-attachment: fixed;
   background-size: cover;
   color: white;
 }
 
 .header-container {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid white;
 }
 
 .nav-list {
@@ -16,4 +16,9 @@ body {
 .list-item {
   text-transform: capitalize;
   cursor: pointer;
+}
+
+.list-item:hover {
+  color: gray;
+  transition: all 0.5s ease;
 }
