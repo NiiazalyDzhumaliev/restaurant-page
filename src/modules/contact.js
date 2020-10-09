@@ -1,5 +1,5 @@
-const content = document.getElementById('content');
 const loadContact = () => {
+  const content = document.getElementById('content');
   const contactDiv = document.createElement('div');
   contactDiv.setAttribute(
     'class', 'contact-div d-flex flex-column align-items-center justify-content-center mt-5',
@@ -15,4 +15,4 @@ const loadContact = () => {
   contactDiv.appendChild(phone);
 };
 
-export { loadContact };
+export default loadContact;

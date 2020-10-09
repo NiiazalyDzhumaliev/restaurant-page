@@ -1,6 +1,5 @@
-const content = document.getElementById('content');
-
 const loadAbout = () => {
+  const content = document.getElementById('content');
   const header = document.createElement('h1');
   header.setAttribute('class', 'about-header ml-5 mt-5');
   header.textContent = 'About us';
@@ -11,4 +10,4 @@ const loadAbout = () => {
   content.appendChild(info);
 };
 
-export { loadAbout };
+export default loadAbout;
