@@ -23,7 +23,7 @@ const loadHeader = () => {
   const navUl = document.createElement('ul');
   navUl.setAttribute('class', 'nav-list d-flex');
   headerContainer.appendChild(navUl);
-  for (let i = 0; i < arr.length; i+=1) {
+  for (let i = 0; i < arr.length; i += 1) {
     arr[i].textContent = arrVal[i];
     arr[i].setAttribute('class', 'list-item mr-5');
     navUl.appendChild(arr[i]);
