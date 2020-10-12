@@ -17,7 +17,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo](https://rawcdn.githack.com/NiiazalyDzhumaliev/restaurant-page/9ccf6b9288d0844c4649c039680026573336c963/dist/index.html)
+[Live Demo](https://rawcdn.githack.com/NiiazalyDzhumaliev/restaurant-page/0aaaa03b61877f6ca908b20b6e352c0ee83916b4/dist/index.html)
 
 ## Getting Started
 
