@@ -1,0 +1,29 @@
+body {
+  background: url(./assets/background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+.header-container {
+  border-bottom: 1px solid white;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.list-item {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  color: gray;
+  transition: all 0.5s ease;
+}
+
+.home-img {
+  width: 300px;
+  border-radius: 10%;
+}
